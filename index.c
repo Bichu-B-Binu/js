@@ -34,3 +34,31 @@
 // }
 //     return 0;
 // }
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+int select,choice;
+
+printf(" 1.Mandhi \n 2.Porotta \n 3.Chappathy \n 4.Puttu \n Enter you choice: ");
+scanf("%d",&choice);
+
+switch(choice){
+    case 1:
+    printf("Mandhi");
+    break;
+    case 2:
+    printf("Porotta");
+    break;
+    case 3:
+    printf("Chappathy");
+    break;
+    case 4:
+    printf("Puttu");
+    break;
+    default : printf("Please enter a valid one");
+}
+    return 0;
+}
